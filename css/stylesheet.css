@@ -38,5 +38,18 @@ tr {
 
 .arrowPagingWeek {
   color: #CCC;
+}
 
+.monthCell {
+  border-left: 1px solid #BFB9B0;
+}
+
+.weekPaging {
+  border-left: 1px solid #BFB9B0;
+}
+
+.dayCellContainer {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
 }

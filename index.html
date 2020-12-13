@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>予約状況管理画面</title>
+  <title>来店日時</title>
   <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
@@ -14,17 +14,11 @@
           <table class="innerTable">
             <thead>
               <tr>
-                <th rowspan="2" class="weekPaging">
-                  <span class="arrowPagingWeek">
-                    前の一週間
-                  </span>
+                <th id="prev">&laquo;
+                  <span class="arrowPagingWeek">前の一週間</span>
                 </th>
-                <th colspan="14" class="monthCell">
-                  2020年12月
-                </th>
-                <th rowspan="2" class="weekPaging">
-                  <a href="" title="次の一週間" class="arrowPagingWeekR"></a>
-                </th>
+                <th id="title" colspan="14">2020/05</th>
+                <th id="next">&raquo;<a href="#">次の一週間</a></th> 
               </tr>
               <tr class="dayCellContainer">
                 <th class="sat">
@@ -96,6 +90,11 @@
                 <table></table>
               </th>
             </tbody>
+            <tfoot>
+              <tr>
+                <td id="today" colspan="25">Today</td>
+              </tr>
+            </tfoot>
           </table>
         </div>
       </div>
