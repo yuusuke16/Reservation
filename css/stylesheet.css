@@ -1,3 +1,30 @@
+body {
+  font-size: 14px;
+}
+
+table {
+  border: 2px solid #eee;
+}
+
+thead,
+tfoot {
+  background: #eee;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+.sat {
+  color: blue;
+}
+
+.sun {
+  color: red;
+}
+
 #wrapper {
   width: 1000px;
   margin: 0 auto;
@@ -23,6 +50,14 @@
   box-sizing: border-box;
   width: 100%;
 }
+
+#prev,
+#next,
+#today {
+  cursor: pointer;
+  user-select: none;
+}
+
 
 thead {
   display: table-header-group;

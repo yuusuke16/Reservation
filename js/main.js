@@ -1,6 +1,5 @@
 'use strict'
 
-
 {
   const today = new Date();
   let year = today.getFullYear();
@@ -31,8 +30,6 @@
         isDisabled: false,
       });
     }
-
-    console.log(dates);
   }
 
   getCalendarBody();
